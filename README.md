@@ -37,11 +37,18 @@ Vá em **[Releases](../../releases/latest)** e baixe `HUNTERA-Companion-Setup-<v
 
 ## Privacidade
 - Tudo fica só no seu PC, em `%APPDATA%\HUNTERA Companion\`. Nada é enviado para fora.
+- Além do site do jogo, o app só consulta as Releases deste repositório no GitHub, para procurar atualizações. Nenhum dado seu vai nessa consulta.
 - Nomes de outros jogadores não são gravados. A única exceção é o comprador de uma venda que **você** confirmou.
 - Chat e mensagens privadas não são lidos.
 
 ## Atualizar
-Feche o app e rode o instalador da versão nova por cima da antiga. Seus dados e logins continuam.
+**A partir da versão 0.9.2, o app se atualiza sozinho:**
+- Ao abrir, e a cada 6 h, ele procura uma versão nova aqui nas Releases e baixa em segundo plano.
+- Quando terminar, aparece na barra **"Atualização pronta · Reiniciar"**.
+- O app nunca reinicia sozinho no meio do jogo. Se você não clicar, a atualização é instalada quando você fechar o app.
+- Para procurar na hora, use **Dados → Procurar atualizações**.
+
+Versões até a 0.9.1 não se atualizam sozinhas: baixe a mais nova uma vez e rode por cima. Seus dados e logins continuam.
 
 ## Backup e restauração
 - **Fazer backup:** use **Dados → Fazer backup do histórico…**. Os logins não entram no backup.
